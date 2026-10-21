@@ -46,7 +46,7 @@ And that, apparently, is enough.
 
 - An original narrative inspired by a larger fantasy world
 
-**Download and Play on Windows!**
+### Download and Play on Windows!
 
 Download Temple of Gaia.exe from the project's repository.
 
