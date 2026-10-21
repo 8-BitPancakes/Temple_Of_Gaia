@@ -48,7 +48,7 @@ And that, apparently, is enough.
 
 ### Download and Play on Windows!
 
-Download Temple of Gaia.exe from the project's repository.
+- Download Temple of Gaia.exe from the project's repository.
 
 - Save the executable somewhere convenient.
 
