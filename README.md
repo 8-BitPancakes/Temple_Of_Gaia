@@ -1,14 +1,19 @@
-Temple of Gaia
+# Temple of Gaia
+
 
 A short fantasy text adventure about courage, corruption, and the things worth saving.
 
-Version 1.0 | Python | Windows
+
+*Version 1.0 | Python | Windows*
+
 
 The forest has been quiet for three days.
 
 Not peaceful. Quiet.
 
-About the Game
+
+## About the Game
+
 
 Temple of Gaia is a story-driven, text-based fantasy adventure set in an original fantasy universe.
 
@@ -24,103 +29,110 @@ But something needs your help.
 
 And that, apparently, is enough.
 
-Features
 
-11 interconnected rooms to explore
+### Features
 
-7 collectible items hidden throughout the temple
+- 11 interconnected rooms to explore
 
-Environmental puzzles and passages requiring specific relics
+- 7 collectible items hidden throughout the temple
 
-Two major encounters with outcomes determined by your equipment
+- Environmental puzzles and passages requiring specific relics
 
-Persistent consequences that affect the story
+- Two major encounters with outcomes determined by your equipment
 
-Multiple endings, including wounded and uninjured victories
+- Persistent consequences that affect the story
 
-An original narrative inspired by a larger fantasy world
+- Multiple endings, including wounded and uninjured victories
 
-Download and Play
+- An original narrative inspired by a larger fantasy world
 
-Windows
+**Download and Play on Windows!**
 
 Download Temple of Gaia.exe from the project's GitHub Releases page.
 
-Save the executable somewhere convenient.
+- Save the executable somewhere convenient.
 
-Double-click the file to launch the game.
+- Double-click the file to launch the game.
 
-Follow the on-screen instructions.
+- Follow the on-screen instructions.
 
-Python is not required to play the Windows executable.
+
+Python **is not** required to play the Windows executable.
+
 
 The game runs in a console window. Keep that window open while playing.
 
+
 Because the executable is independently packaged and unsigned, Windows may display a security warning. Only run downloads obtained from a source you trust.
 
-Running from Source
+
+### Running from Source
 
 If you have Python installed, you can also run the original source code.
 
-Download or clone this repository.
+- Download or clone this repository.
 
-Open a terminal in the project directory.
+- Open a terminal in the project directory.
 
-Run the game's Python file:
+- Run the game's Python file:
 
-python Temple_of_Gaia.py
+- python Temple_of_Gaia.py
+
 
 No third-party Python packages are required to run the game's source code.
 
-How to Play
+
+### How to Play
 
 Type commands into the console and press Enter.
 
 Command
 
-Action
+- Action
 
 go north
 
-Travel north
+- Travel north
 
 go south
 
-Travel south
+- Travel south
 
 go east
 
-Travel east
+- Travel east
 
 go west
 
-Travel west
+- Travel west
 
 check pedestal
 
-Examine an object
+- Examine an object
 
 inventory
 
-View collected items
+- View collected items
 
 look
 
-Examine your current room
+- Examine your current room
 
 help
 
-Display available commands
+- Display available commands
 
 exit
 
-Close the game
+- Close the game
 
-Tips: Explore carefully, examine unusual objects, and pay attention to clues in the environment. What you carry may determine whether you survive an encounter.
+### Tips
+
+Explore carefully, examine unusual objects, and pay attention to clues in the environment. What you carry may determine whether you survive an encounter.
 
 Death restarts your journey, so choose your path wisely.
 
-Development
+### Development
 
 Temple of Gaia was created as my first complete Python programming project.
 
@@ -128,25 +140,26 @@ The project began as an exercise in basic navigation using Python dictionaries a
 
 Through its development, I practiced:
 
-Python dictionaries, sets, and variables
+- Python dictionaries, sets, and variables
 
-Conditional statements and Boolean logic
+- Conditional statements and Boolean logic
 
-Functions and parameters
+- Functions and parameters
 
-Loops and command processing
+- Loops and command processing
 
-Inventory and state management
+- Inventory and state management
 
-Debugging and testing
+- Debugging and testing
 
-Branching narrative design
+- Branching narrative design
 
-Packaging Python applications for Windows using PyInstaller
+- Packaging Python applications for Windows using PyInstaller
+
 
 The game was developed using Python and PyCharm and packaged into a standalone Windows executable using PyInstaller.
 
-Project Status
+### Project Status
 
 Version 1.0: First playable release
 
@@ -154,18 +167,20 @@ The game contains a complete adventure, including an introduction, exploration, 
 
 Future improvements may include expanded storytelling, additional quality-of-life features, and refinements based on player feedback.
 
-Credits
+
+### Credits
 
 Story, worldbuilding, game design, and programming: 8-BitPancakes
 
 Development tools: Python, PyCharm, PyInstaller
 
-Temple of Gaia takes place in an original fantasy setting created by me.
+Temple of Gaia takes place in an original fantasy setting created by 8-BitPancakes.
 
-A Final Note
+
+## A Final Note
 
 This project represents my first steps into game development, bringing together two things I love: storytelling and programming.
 
 Thank you for playing.
 
-The forest remembers you.
+### The forest remembers you.
