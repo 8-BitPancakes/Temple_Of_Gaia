@@ -88,10 +88,10 @@ Type commands into the console and press Enter.
 
 | Command | Action |
 |---|---|
-| `go north` | Travel north |
-| `go south` | Travel south |
-| `go east` | Travel east |
-| `go west` | Travel west |
+| `go north/up` | Travel north |
+| `go south/down` | Travel south |
+| `go east/right` | Travel east |
+| `go west/left` | Travel west |
 | `check pedestal` | Examine an object |
 | `inventory` | View collected items |
 | `look` | Examine your current room |
