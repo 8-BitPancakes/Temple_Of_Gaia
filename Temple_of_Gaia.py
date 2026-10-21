@@ -6,14 +6,14 @@ rooms = {
     "Sanctuary of the First Roots": {
         "North": "Hall of the Twin Celestials"
     },
-    
+
     "Hall of the Twin Celestials": {
         "North": "Bridge of Remembrance",
         "South": "Sanctuary of the First Roots",
         "East": "Sunlit Conservatory",
         "West": "Moonwell"
     },
-    
+
     "Moonwell": {
         "East": "Hall of the Twin Celestials"
     },
@@ -21,7 +21,7 @@ rooms = {
     "Sunlit Conservatory": {
         "West": "Hall of the Twin Celestials"
     },
-    
+
     "Bridge of Remembrance": {
         "South": "Hall of the Twin Celestials",
         "North": "Chamber of Equilibrium"
@@ -38,20 +38,20 @@ rooms = {
         "West": "Chamber of Equilibrium",
         "South": "Reliquary"
     },
-    
+
     "Reliquary": {
         "North": "Keeper's Residence"
     },
-    
+
     "The Weaver's Hollow": {
         "South": "Crypt of the First Keepers",
         "East": "Chamber of Equilibrium"
     },
-    
+
     "Crypt of the First Keepers": {
         "North": "The Weaver's Hollow"
     },
-    
+
     "Heart of Gaia": {
         "South": "Chamber of Equilibrium"
     }
@@ -94,7 +94,7 @@ descriptions = {
         "is visible overhead. Beneath the clear water, you "
         "notice a small stone pedestal."
     ),
-    
+
     "Sunlit Conservatory": (
         "An ancient garden, "
         "blessed with the warmth of the summer's day. "
@@ -122,7 +122,7 @@ descriptions = {
         "around the bedposts. The room is quiet, but not empty "
         "of memory."
     ),
-    
+
     "Reliquary": (
         "The door creaks open beneath your hand. "
         "Empty weapon racks line the walls, and pale roots "
@@ -156,7 +156,7 @@ descriptions = {
         "Thick fumes seep from cracked vents. "
         "At the center of it all, something vast and breathing "
         "slowly turns toward you."
-    ),
+),
 
 
 }
@@ -176,7 +176,7 @@ searchable_objects = {
             )
         }
     },
-    
+
     "Sunlit Conservatory": {
         "pedestal": {
             "item": "Sun Stone",
@@ -210,7 +210,6 @@ searchable_objects = {
                 "still gleaming beneath centuries of dust."
             )
         },
-        
         "wardrobe": {
             "item": "Mantle of the Twin Celestials",
             "description": (
@@ -220,7 +219,6 @@ searchable_objects = {
                 "practically radiating with protective magic."
             )
         },
-        
         "altar": {
             "item": "Seed of the First Grove",
             "description": (
@@ -618,7 +616,7 @@ print(opening_scene)
 
 input("\nPress Enter to begin your journey...")
 
-print("\nMove using north/south/east/west or up/down/left/right.")
+print("\nMove using 'go north/south/east/west' or 'go up/down/left/right'.")
 print("Type 'help' to see all available commands.")
 
 display_room(current_room)
@@ -660,8 +658,6 @@ while True:
         object_name = command[6:].strip()
         check_object(current_room, object_name)
 
-
-
     elif command.startswith("go "):
         direction = command[3:].strip().lower()
 
@@ -696,8 +692,6 @@ while True:
                   "forcing you to retreat. ")
                 print("You need the Heartstone of Gaia.")
 
-
-
             else:
 
                 current_room = next_room
@@ -719,8 +713,6 @@ while True:
                     if result == "death":
                         restart_game("venious")
 
-
-
                     elif result == "victory":
                         print("\nTHE END")
                         input("\nPress Enter to close the game...")
@@ -729,4 +721,5 @@ while True:
 
         else:
             print("You seem to have smacked right into a wall. Be careful!")
+
 
