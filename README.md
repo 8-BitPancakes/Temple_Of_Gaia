@@ -57,7 +57,7 @@ And that, apparently, is enough.
 - Follow the on-screen instructions.
 
 
-Python **is not** required to play the Windows executable.
+Python **IS NOT** required to play the Windows executable.
 
 
 The game runs in a console window. Keep that window open while playing.
