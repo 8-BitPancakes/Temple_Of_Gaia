@@ -82,49 +82,21 @@ If you have Python installed, you can also run the original source code.
 No third-party Python packages are required to run the game's source code.
 
 
-### How to Play
+## How to Play
 
 Type commands into the console and press Enter.
 
-Command
-
-- Action
-
-go north
-
-- Travel north
-
-go south
-
-- Travel south
-
-go east
-
-- Travel east
-
-go west
-
-- Travel west
-
-check pedestal
-
-- Examine an object
-
-inventory
-
-- View collected items
-
-look
-
-- Examine your current room
-
-help
-
-- Display available commands
-
-exit
-
-- Close the game
+| Command | Action |
+|---|---|
+| `go north` | Travel north |
+| `go south` | Travel south |
+| `go east` | Travel east |
+| `go west` | Travel west |
+| `check pedestal` | Examine an object |
+| `inventory` | View collected items |
+| `look` | Examine your current room |
+| `help` | Display available commands |
+| `exit` | Close the game |
 
 ### Tips
 
