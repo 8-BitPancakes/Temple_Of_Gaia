@@ -4,7 +4,7 @@
 A short fantasy text adventure about courage, corruption, and the things worth saving.
 
 
-*Version 1.2 | Python | Windows*
+*Version 1.1 | Python | Windows*
 
 
 The forest has been quiet for three days.
