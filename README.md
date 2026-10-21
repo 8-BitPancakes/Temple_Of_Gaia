@@ -4,7 +4,7 @@
 A short fantasy text adventure about courage, corruption, and the things worth saving.
 
 
-*Version 1.0 | Python | Windows*
+*Version 1.3 | Python | Windows*
 
 
 The forest has been quiet for three days.
@@ -133,7 +133,7 @@ The game was developed using Python and PyCharm and packaged into a standalone W
 
 ### Project Status
 
-Version 1.0: First playable release
+Version 1.3: Story expansion!
 
 The game contains a complete adventure, including an introduction, exploration, encounters, and multiple possible conclusions.
 
